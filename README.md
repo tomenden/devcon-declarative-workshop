@@ -11,7 +11,7 @@ You will add filtering and count functionality to an existing TodoApp in 3 diffe
 * Using `velo-mvvm`
 
 ### Setup
-1. Open [this](https://editor.wix.com/html/editor/web/renderer/new?siteId=60ea2325-7004-4ad3-be3d-d6634c76133a&metaSiteId=d5f8dfb7-67c8-454b-a80f-febb5138cfee&autoDevMode=true) template (make sure you are logged into Wix)
+1. Open [this](https://editor.wix.com/html/editor/web/renderer/new?siteId=c56e81d3-c41e-47dc-ac02-9eef427733dc&metaSiteId=2caacb23-d639-4490-a2e7-e7b2dc2f5a22&autoDevMode=true) template (make sure you are logged into Wix)
 2. **Preview** and get a feel for how the app works. Add some Todos, mark them as completed, delete some Todos, play around.
 3. Select different Filters on the left - currently, changing the filter does nothing. Observe the "Items Left: 0" counter. Currently, it does not update when you change the state of your Todo items. Let's change that and make it work!
 4. Exit Preview, turn on Developer Mode and take a look at the code.
