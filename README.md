@@ -130,7 +130,7 @@ Implement the filtering functionality.
 `react-velo` brings [React](https://reactjs.org/) to Velo!  
 You build your UI using the drag-and-drop editor, describe your UI with JSX (your elements are available under the `W` namespace) and write React code!
 
-You can read more about `react-velo` in the official README here (TODO!).
+You can read more about `react-velo` in the official README [here](https://www.npmjs.com/package/@wix/react-velo).
 More resources on React can be found at the Appendix section of this document.
 
 ### Task 1: Filter Radio Buttons
@@ -202,7 +202,7 @@ Render this component in your app so its text reflects the correct number of Tod
 
 In `velo-mvvm`, you create the observable state by calling the `createModel` function. You then use `bindView` and the special repeaters function `bindRepeaters` to bind your view to the state.
 
-You can read more about `velo-mvvm` in the official README here (TODO!).
+You can read more about `velo-mvvm` in the official README [here](https://www.npmjs.com/package/@wix/velo-mvvm).
 
 ### Task 1: Filter Radio Buttons
 Add the desired behavior to the filter group so that the list is updated any time the filter selection changes.
@@ -289,11 +289,17 @@ The nickname of the "notCompleted" text element is `#notCompletedCount`. Impleme
 
 
 ## Appendix
-* `react-velo` docs
-* `velo-mvvm` docs
+* [`react-velo` docs](https://www.npmjs.com/package/@wix/react-velo)
+* [`velo-mvvm` docs](https://www.npmjs.com/package/@wix/velo-mvvm)
 
 ### `React`
-* TODO
+* [React's official site](https://reactjs.org/)
+* [React's docs](https://reactjs.org/docs/getting-started.html) (Highly recommended)
+* [Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
+* [A beginner's guide to React by Kent C. Dodds](https://egghead.io/lessons/react-a-beginners-guide-to-react-introduction) (egghead.io)
 
 ### `mobx` & Reactive Programming
-* TODO
+* [`mobx`'s official README](https://mobx.js.org/README.html)
+* [egghead.io videos on mobx](https://egghead.io/q/mobx)
+* [Introduction to Reactive Programming using MobX](https://medium.com/machine-words/introduction-to-reactive-programming-using-mobx-2c032cac818e)
+* [Becoming fully reactive: an in-depth explanation of MobX](https://hackernoon.com/becoming-fully-reactive-an-in-depth-explanation-of-mobservable-55995262a254)
