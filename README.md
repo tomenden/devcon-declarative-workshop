@@ -213,7 +213,7 @@ Use the `bindView` function from `velo-mvvm`.
   <summary>Hint</summary>
 
   `bindView` accepts a javascript object. Each property is a nickname, and the value is always a function.  
-  In reactive-programming, functions first-class citizens. Whenever a relevant piece of the state changes, the bound function will re-run, and the element will update.
+  In reactive-programming, functions are first-class citizens. Whenever a relevant piece of the state changes, the bound function will re-run and the element will update.
 
   Let's see where you would add the code for the `#filterGroup` RadioGroup:
   ```js
@@ -244,7 +244,7 @@ Use the `bindView` function from `velo-mvvm`.
   })
   ```
 
-  Note how similar to the `react-velo` example, this piece of code does not care what needs to happen in reaction to the state being updated or how this state transition occurs. It only cares about updating the piece of state it is in charge of, and everything else just works automatically!
+  Note how just like in the `react-velo` example, this piece of code does not care what needs to happen in reaction to the state change or how this state transition occurs. It only cares about updating the piece of state it is in charge of, and everything else just works automatically!
 </details>
 
 
